@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="style.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+  <h1 class="text-center" id="titulo">Bienvenidos al consumo de la API de rick and morty</h1>
+  <div class="main-container container">
+    <div class="row">
+      <div class="img-container container col">
+        <img id="img">
+      </div>
+      <div class="table-container container h-10 col">
+        <table id="table-container" class="table table-striped">
+          <thead class="table-dark">
+            <tr>
+              <th scope="col">Identificador</th>
+              <th scope="col">Nombre</th>
+              <th scope="col">Estado</th>
+              <th scope="col">Especie</th>
+            </tr>
+          </thead>
+          <tbody id="table_body">
+          </tbody>
+        </table>
+  
+      </div>
+    </div>
+
+    
+
+
+    <div class="input-container container">
+      <input>
+    </div>
+    <div class="button-container container mx-auto">
+      <button class="btn btn-primary" id="boton">Consultar personajes</button>
+      <button class="btn btn-primary" id="boton-personaje">Buscar personaje</button>
+      <button class="btn btn-primary" id="boton-clear">Limpiar</button>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+
+</html>

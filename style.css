@@ -1,0 +1,23 @@
+.main-container{
+    padding: 3%;
+}
+.img-container{
+    align-items: center;
+    text-align: center;
+    width: 50px;
+    margin: 1px;
+    border-color: black;
+}
+.table-container{
+    height: 300px;
+    max-height: 300px;
+    overflow-y: auto;
+}
+.input-container{
+    text-align: center;
+    padding-top: 3%;
+}
+.button-container{
+    padding: 1.5%;
+    text-align: center;
+}
